@@ -8,9 +8,7 @@ public class pemilihan2percobaan108 {
         int angka = sc.nextInt();
 
         if (angka % 4 == 0){
-            if (angka % 100 != 0){
-                System.out.println("Tahun kabisat");
-            }
+            System.out.println("Tahun kabisat");
         }
         else {
             System.out.println("Bukan tahun kabisat");
