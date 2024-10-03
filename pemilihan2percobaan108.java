@@ -11,8 +11,13 @@ public class pemilihan2percobaan108 {
             if (angka % 100 != 0){
                 System.out.println("Tahun kabisat");
             }
-            else if (angka % 100 == 0 && angka % 400 == 0){
-                System.out.println("Tahun kabisat");
+            else if (angka % 100 == 0){
+                if (angka % 400 == 0){
+                    System.out.println("Tahun kabisat");
+                }
+                else {
+                    System.out.println("bukan tahun kabisat");
+                }
             }
             else {
                 System.out.println("bukan tahun kabisat");
